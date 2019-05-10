@@ -1,5 +1,5 @@
 body {
-  padding-top: 6em;
+  margin: 2em 1.5em 0.5em 1.5em;
 }
 
 * {
@@ -7,19 +7,20 @@ body {
 }
 
 .mdn-logo {
-  max-width: 26em;
+  max-width: 20em;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 6em;
+  /* margin-bottom: 1em; */
 }
 
 .search-container {
   position: relative;
-  max-width: 30em;
+  /* border-radius: 3em; */
+  min-width: 20em;
   height: auto;
-  margin: 0 auto;
+  margin: 1em 0;
 }
 
 input#search-bar {
