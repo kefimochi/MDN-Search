@@ -33,3 +33,7 @@ function callback(e) {
 window.onload = function() {
   document.getElementById("search-bar").focus();
 };
+
+window.addEventListener("keydown", () => {
+  console.log("hi");
+});
