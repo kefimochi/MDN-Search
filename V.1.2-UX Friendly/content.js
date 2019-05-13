@@ -10,10 +10,7 @@ if (ele.addEventListener) {
 }
 
 function callback(e) {
-  let searchValue = document.getElementsByTagName("input")[0].value;
-  if(searchValue.trim().length === 0) return; // Not be search for blank values
-
-  let arrayInput = searchValue.split(" ");
+  let arrayInput = document.getElementsByTagName("input")[0].value.split(" ");
 
   if (arrayInput[0] === undefined) {
     alert("Bad input. Try again");
@@ -37,9 +34,6 @@ window.onload = function() {
   document.getElementById("search-bar").focus();
 };
 
-window.addEventListener("keydown", (e) => {
-  // Search on enter key down
-  if(e.keyCode === 13) {
-    callback(e);
-  }
+window.addEventListener("keydown", () => {
+  console.log("hi");
 });
