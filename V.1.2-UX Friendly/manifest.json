@@ -2,7 +2,7 @@
   "name": "MDN Search Extension",
   "version": "1.2",
   "manifest_version": 2,
-  "description": "Simplify the process of using MDN in your every day life.",
+  "description": "Simplify the process of using MDN docs in your every day life.",
   "background": {
     "scripts": ["background.js"]
   },
@@ -21,13 +21,13 @@
     "128": "MDN-icon.png"
   },
   "commands": {
-    "Ctrl+M": {
+    "_execute_page_action": {
       "suggested_key": {
-        "default": "Ctrl+M",
-        "mac": "Command+M"
-      },
-      "default_popup": "popup.html",
-      "description": "Ctrl+M."
+        "windows": "Ctrl+M",
+        "mac": "Command+M",
+        "chromeos": "Ctrl+M",
+        "linux": "Ctrl+M"
+      }
     }
   }
 }
