@@ -88,7 +88,5 @@ async function customSerach() {
         }
       }
     }
-  } else {
-    searchListDOM.innerHTML = "";
-  }
+  } else searchListDOM.innerHTML = "";
 }
