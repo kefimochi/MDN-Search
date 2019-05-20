@@ -21,7 +21,7 @@
     "128": "MDN-icon.png"
   },
   "commands": {
-    "_execute_page_action": {
+    "_execute_browser_action": {
       "suggested_key": {
         "windows": "Ctrl+M",
         "mac": "Command+M",
