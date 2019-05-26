@@ -1,5 +1,5 @@
 body {
-  margin: 2em 1.5em 0em 1.5em;
+  margin: 2em 1.5em 0.5em 1.5em;
 }
 
 * {
@@ -58,9 +58,10 @@ ul > li {
 ul > li > a {
   text-decoration: none;
   display: block;
-  padding: 0.8em 1.4em;
+  padding: 0.65em 1.4em;
   color: rgb(0, 0, 0);
   word-break: break-word;
+  margin: 0;
 }
 
 ul > li > a:hover {
