@@ -35,6 +35,10 @@ input#search-bar:focus {
   transition: 0.35s ease;
 }
 
+.selected {
+  background-color: aliceblue;
+}
+
 .search-icon {
   position: absolute;
   width: 4em;
@@ -53,6 +57,10 @@ ul > li {
   list-style: none;
   border-bottom: 0.04em solid #ccc;
   border-top: none;
+}
+
+ul > li:first-child {
+  background-color: aliceblue;
 }
 
 ul > li > a {
