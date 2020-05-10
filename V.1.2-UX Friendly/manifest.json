@@ -3,9 +3,6 @@
   "version": "1.2",
   "manifest_version": 2,
   "description": "Simplify the process of using MDN docs in your every day life.",
-  "background": {
-    "scripts": ["background.js"]
-  },
   "browser_action": {
     "default_popup": "popup.html"
   },
